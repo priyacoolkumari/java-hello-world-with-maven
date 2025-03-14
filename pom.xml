@@ -13,12 +13,6 @@
     </properties>
 
     <dependencies>
-        <!-- Joda Time Dependency -->
-        <dependency>
-            <groupId>joda-time</groupId>
-            <artifactId>joda-time</artifactId>
-            <version>2.2</version>
-        </dependency>
 
         <!-- ✅ JUnit 5 (Jupiter API) for Unit Testing -->
         <dependency>

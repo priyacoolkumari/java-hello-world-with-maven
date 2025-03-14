@@ -9,6 +9,8 @@ pipeline {
     environment {
         SONAR_HOST_URL = 'http://localhost:9000'
         SONAR_PROJECT_KEY = 'priyacoolkumari_java-hello-world-with-maven_fbd14a2b-1fee-4680-a5ec-72f43255788e'  // Updated with the actual SonarQube project key
+        SONAR_TOKEN = credentials('sonar-token')  // Fetches the token from Jenkins credentials
+
     }
 
     stages {
